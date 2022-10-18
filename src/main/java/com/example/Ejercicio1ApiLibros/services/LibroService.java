@@ -125,6 +125,7 @@ public class LibroService {
 		}
 	}
 
+	//Exportar libros a excel
 	public ModelAndView exportarExcel(List<Libro> lista2) {
 		// TODO Auto-generated method stub
 		Map<String, Object> model = new TreeMap<String, Object>();
